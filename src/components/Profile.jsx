@@ -12,7 +12,7 @@ const Profile =()=>{
             My posts
 
             <div>
-                New Post
+                New Post1
             </div>
             <div>
                 Post 1
