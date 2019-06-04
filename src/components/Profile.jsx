@@ -9,7 +9,7 @@ const Profile =()=>{
             ava+description
         </div>
         <div>
-            My posts
+            My posts1
 
             <div>
                 New Post1
