@@ -4,7 +4,7 @@ import s from './Header.module.css';
 const Header =() =>{
  return(
     <header className={s.header}>
-        <img src='https://pbs.twimg.com/profile_banners/15223775/1551482440/1500x500' alt=""/>
+        <img src='https://logos-download.com/wp-content/uploads/2019/01/Cosmos_Logo-700x700.png' alt=""/>
     </header>
  )
 };

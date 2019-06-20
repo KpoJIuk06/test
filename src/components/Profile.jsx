@@ -5,7 +5,7 @@ import e from './Post.module.css';
 const Profile =()=>{
    return <div className={s.content}>
         <div>
-            <img src="http://theperfectlight.com/wp-content/uploads/2017/01/Light-Pollution.png" alt=""/>
+            <img src="https://pbs.twimg.com/profile_banners/15223775/1551482440/1500x500" alt=""/>
         </div>
         <div className={s.ava}>
             ava+description
