@@ -9,5 +9,12 @@
 
 
 .item{
-
+    color: green;
 }
+
+.posts{
+    font-style: italic;
+}
+
+.ava{
+    color: white;}
