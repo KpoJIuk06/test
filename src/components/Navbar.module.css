@@ -7,3 +7,7 @@
     color:azure;
 }
 
+.item.active{
+    color:gold;
+}
+
