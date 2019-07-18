@@ -1,14 +1,14 @@
 .app-wrapper {
     display: grid;
-    width: 1500px;
+    width: 1400px;
     margin: 0 auto;
     grid-template-areas:
         "h h h "
         "n c c"        ;
 
     grid-template-rows: 60px 1fr;
-    grid-template-columns: 2fr 10fr;
-    /*grid-gap: 10px;*/
+    grid-template-columns: 0.7fr 11.3fr;
+    grid-gap: 10px;
 }
 
 

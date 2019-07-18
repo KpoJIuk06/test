@@ -1,5 +1,6 @@
 .content img{
-    width: 300px;
+    width: 700px;
+
 }
 
 .content {
@@ -18,3 +19,7 @@
 
 .ava{
     color: white;}
+
+.ava textarea{
+    width: 695px;
+}
