@@ -8,11 +8,12 @@ const Profile =()=>{
         <div>
             <img src="https://pbs.twimg.com/profile_banners/15223775/1551482440/1500x500" alt=""/>
         </div>
+       <div>ava+description</div>
         <div className={s.ava}>
-            <textarea name="Ava" id="1" cols="30" rows="5"></textarea>
             <button className={e.content}>Push</button>
         </div>
        <MyPosts/>
+
     </div>
 
 };

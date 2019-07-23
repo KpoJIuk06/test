@@ -1,24 +1,18 @@
 import React from 'react';
-import s from './Post.module.css';
 import e from './Post.module.css';
+import SwitchExample from './SwitchExample';
 
 const Post =()=>{
-   return <div  className={e.MainPost}>
-            My posts1
-
-            <div  className={e.post1}>
-                New Post1
-            </div>
-            <div className={s.posts}>
-            <div  className={s.item}>
-                Post 1
-            </div>
-            <div className={s.item}>
-                Post 2
-            </div>
-        </div>
-    </div>
-
+   return (
+       <div className={e.post1}>
+       <img src="https://findicons.com/files/icons/1072/face_avatars/300/a02.png" alt=""/>
+       <span>Post</span>
+       <div>
+       <span>Like</span>
+       </div>
+       <SwitchExample/>
+               </div>
+)
 };
 
 
