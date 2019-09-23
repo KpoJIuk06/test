@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Popup from './Popup';
+import h from './style.css';
 
 
-class App extends Component {
+class App1 extends Component {
 
     constructor(props){
         super(props);
@@ -18,7 +19,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <h1> Online payment </h1>
+                <h1 className={h.h1}> Online payment </h1>
                 <button onClick={this.togglePopup.bind(this)}> Payment</button>
 
                 {this.state.showPopup ?
@@ -36,4 +37,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default App1;
